@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  color: white;
+}
+
+
+header, footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerblue;
+  height: 100px;
+  border: 10px solid white;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+main {
+  display: flex;
+  text-align: center;
+  height: 100%;
+  border: 10px solid white;
+}
+
+section {
+  display: flex;
+  flex: 1.5;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfbfbf;
+  margin: 0px 10px;
+}
+
+nav, aside {
+  display: flex;
+  flex: 0.75;
+  justify-content: center;
+  align-items: center;  
+  background-color: #6db5fd;
+}
+

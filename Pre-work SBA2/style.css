@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.output {
+    background-color: lightgreen;
+}
+
+h1 {
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+footer, header {
+    font-weight:normal;
+    padding: 10px;
+    align-items: center;
+}
+
+header {
+    font-size:xx-large;
+}
+
+footer {
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+.box {
+    backgrond-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    border: 5px solid green;
+    margin: auto;
+}
+
+a {
+    font-size: x-small;
+}
