@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html {
+            font-family: 'Libre Baskerville', serif;
+            font-family: 'Raleway', sans-serif;
+            color: #464a4e;
+        }
+
+        body {
+            max-width: 100%;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        header {
+            display: block;
+            font-size:xx-large;
+            letter-spacing: 8px;
+            background-color: #f4f4f4;
+            text-align: left;
+            padding: 50px;
+            margin: 20px 20px;
+        }
+
+        footer {
+            font-size: small;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+
+        #title {
+            font-size:small;
+            padding-top: 5px;
+        }
+
+        img {
+            width: 150px;
+            /* border: 5px solid white; */
+            border-radius: 50%;
+            position: absolute;
+            right: 100px;
+            top: 75px;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: row;
+            margin: 5px;
+        }
+
+        i {
+            text-align: right;
+        }
+
+        .card > div {
+            margin-left: 5px;
+            padding: 5px;
+        }
+
+        #contact {
+            font-size: small;
+            text-align: right;
+            margin-bottom: 5px;
+        }
+
+        h1 {
+            letter-spacing: 5px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #464a4e;
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        section {
+            font-size:smaller;
+        }
+
+        main {
+            width: 70%;
+            margin: 50px;
+            justify-content: center;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        .break {
+            border: 1px solid grey;
+            opacity: 0.5;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .company {
+            margin: 5px 0px;
+        }
+        
+        .spacer {
+            margin: 10px;
+        }
+
+        ul {
+            position: relative;
+            right: 25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="name" class="uppercase">Leo <span class="bold">Chen</span></div>
+            <div id="title" class="uppercase">Web Developer</div>  
+            <div><img src="./imgs/leochen-square.jpg"></div>
+        </div>
+    </header>
+    <main>
+        <section id="contact">
+            <div class="card">
+                <div><i class="fa fa-phone"></i></div>
+                <div><a href="tel:7329554114">732-955-4114</a></div>
+            </div>
+            <div class="card">
+                <div><i class="fa fa-envelope"></i></div>
+                <div><a href="mailto:LeoCChen888@gmail.com">LeoCChen888@gmail.com</a></div>
+            </div>
+            <div class="card">
+                <div><i class="fa fa-home"></i></div>
+                <div>426 Main St - Spotswood, NJ 08884</div>
+            </div>
+            <div class="card">
+                <div><i class="fa fa-globe"></i></div>
+                <div><a href="http://zdmedia.com" target="_blank">zDmedia.com</a></div>
+            </div>
+            <div class="card">
+                <div><i class="fa fa-linkedin-square"></i></div>
+                <div><a href="http://LinkedIn.com/in/037chen" target="_blank">LinkedIn.com/in/037chen</a></div>
+            </div>            
+        </section>
+
+        <div class="spacer"></div>
+        <div class="break"></div>
+        <div class="spacer"></div>
+
+        <section id="profile">
+            <h1 class="uppercase">Profile</h1>
+            <p>
+                I have over 21 years of practical experience in online entertainment and email marketing services. In 2000, I founded an entertainment portal and website marketing business, wherein these businesses were generating over 250,000 unique visitors combined daily.
+I was able to generate targeted web traffic through the use of email co-registration.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h1 class="uppercase">Skills</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Dreamweaver</li>
+                <li>WordPress</li>
+                <li>Microsoft Windows Server 2003-2008</li>
+                <li>DNS</li>
+                <li>Network installation</li>
+                <li>CentOS</li>
+                <li>Operating Systems (MacOS, Windows 7, Linux)</li>
+                <li>VMware ESXi Virtualization</li>
+                <li>System Administration</li>
+                <li>PC Computers and Servers</li>
+                <li>Market research</li>
+                <li>Email marketing</li>
+                <li>Digital marketing</li>
+                <li>Event marketing</li>
+                <li>Events management</li>
+                <li>Data analytics</li>
+                <li>Enterprise sales</li>
+            </ul>
+        </section>   
+
+        <div class="spacer"></div>
+        <div class="break"></div>
+        <div class="spacer"></div>
+
+        <section id="experience">
+            <h1 class="uppercase">Experience</h1>
+            <span>President and Founder</span>
+            <div class="company">Xoopa</div>
+            <div class="date">2005 - 2020</div>
+            <ul>
+                <li>Email Service Provider</li>
+                <li>Email Consultant</li>
+                <li>Deliverability expert</li>
+                <li>Create and manage email campaigns</li>
+            </ul>
+            
+            <div class="spacer"></div>
+
+            <span>President and Founder</span>
+            <div class="company">ZD Media, Inc</div>
+            <div class="date">2000 - 2020</div>
+            <ul>
+                <li>Generate sales leads thru affiliate marketing</li>
+                <li>Responsible for installing and maintaining enterprise server hardware and software</li>
+                <li>Provide customer support to clients and maintain vendor relations over the telephone on a daily basis</li>
+            </ul>
+
+            <div class="spacer"></div>
+
+            <span>Chief Technology Officer</span>
+            <div class="company">North Atlantic Tower, Inc</div>
+            <div class="date">1997 - 2001</div>
+            <ul>
+                <li>Setup office software and computer network infrastructure</li>
+                <li>Maintained accounts payable and receivable ledgers using Quickbooks Pro</li>
+                <li>Interact effectively with wide customer base</li>
+            </ul>     
+            
+            <div class="spacer"></div>
+
+            <span>Programmer Analysis</span>
+            <div class="company">Salomon Smith Barney - New York City, NY</div>
+            <div class="date">1997 - 2001</div>
+            <ul>
+                <li>Responsible for debugging and recoding Y2K applications</li>
+                <li>Develop and maintain backend web applications</li>
+                <li>Create software applications based on customer needs</li>
+            </ul>   
+
+            <div class="spacer"></div>
+
+            <span>Associate Software Engineer</span>
+            <div class="company">Cubic Corporation - New York City, NY</div>
+            <div class="date">1997 - 1997</div>
+            <ul>
+                <li>Develop and debug MetroCard software for the MTA</li>
+                <li>Increased efficiency by creating programs to generate test data</li>
+                <li>Communicated directly with senior system software engineer on a daily basis</li>
+            </ul>  
+        </section>
+
+        <div class="spacer"></div>
+        <div class="break"></div>
+        <div class="spacer"></div>
+
+        <section id="education">
+            <h1 class="uppercase">Education</h1>
+                <span>Business and Psychology</span>
+                <div class="company">Queensborough Community College - Bayside, NY</div>
+                <div class="date">1990 - 1992</div>
+
+        </section>    
+
+        <div class="spacer"></div>
+
+        <section id="education">
+
+            <h1 class="uppercase">Certification</h1>
+            <span>PerScholas</span>
+            <div class="company">Newark, New Jersey</div>
+            <div class="date">2023 - Present</div>
+            <p></p>
+            <span>AWS Cloud Practicioner</span>
+            <div class="company">Monroe, New Jersey</div>
+            <div class="date">2023 - Present</div>
+            <p></p>
+            <span>The Chubb Institute</span>
+            <div class="company">New York City, NY</div>
+            <div class="date">1997 - 1998</div>
+
+
+        </section>  
+    </main>
+    <footer>
+        Designed by <a href="http://LinkedIn.com/in/037chen" target="_blank"><span>Leo Chen</span></a>
+    </footer>
+</body>
+</html>
